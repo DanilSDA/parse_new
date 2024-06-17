@@ -29,8 +29,14 @@ pprint(response.json())
 print( 'Задание 2' )
 
 param = {'userId': 1}
-response = requests.get('https://jsonplaceholder.typicode.com/posts', params=param)
-pprint(response.json())
+response = requests.get('https://jsonplaceholder.typicode.com/posts', params=param
+if response.status_code == 200:
+
+    for i in response.json():
+        print(i
+else:
+    print('Error')
+#pprint(response.json())
 
 
 #
