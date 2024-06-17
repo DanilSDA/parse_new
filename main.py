@@ -33,9 +33,9 @@ response = requests.get('https://jsonplaceholder.typicode.com/posts', params=par
 if response.status_code == 200:
 
     for i in response.json():
-        print(i
+        pprint(i)
 else:
-    print('Error')
+    print('Ошибка')
 #pprint(response.json())
 
 
