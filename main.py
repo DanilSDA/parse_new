@@ -9,7 +9,7 @@
 # Распечатайте содержимое ответа в формате JSON.
 
 import requests
-from pprint  import pprint
+from pprint import pprint
 
 
 
